@@ -1,6 +1,5 @@
-#!/usr/bin/env groovy
 def call(name) {
-	node() {
-		echo String.format(“Hello ${name}”)
-	}
+   echo "Hello ${name}"
+   echo "Have a great day!"
+   echo String.format(“Hello ${name}”)
 }
